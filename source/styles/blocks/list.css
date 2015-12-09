@@ -1,0 +1,19 @@
+/* List */
+
+.list {
+  margin: 22px 0;
+  padding: 0;
+  padding-left: 40px;
+
+  &--unordered {
+    list-style: none;
+
+    li::before {
+      content: '— ';
+    }
+  }
+
+  li {
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,7 @@
+/* Search */
+
+.search {
+  &__input {
+    margin-right: 4px;
+  }
+}

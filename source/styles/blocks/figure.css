@@ -1,0 +1,15 @@
+/* Figure */
+
+.figure {
+  margin: 22px 0;
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__caption {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

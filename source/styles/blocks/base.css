@@ -1,0 +1,35 @@
+/* Base */
+
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 22px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+p {
+  margin: 22px 0;
+}
+
+blockquote {
+  font-weight: bold;
+  line-height: 22px;
+  box-sizing: border-box;
+  margin: 22px 0 22px 30px;
+  padding: 12px 7px 12px 10px;
+  border: 1px solid #eeecdd;
+  border-left: 7px solid #eeecdd;
+  background: #f9f8f4;
+}

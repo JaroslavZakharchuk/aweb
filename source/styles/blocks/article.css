@@ -1,0 +1,50 @@
+/* Article */
+
+.article {
+  &__tag {
+    line-height: 21px;
+    margin: 16px 0;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin: 7px 5px 7px 0;
+      vertical-align: top;
+      background: #333;
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+
+  &__author {
+    font-style: italic;
+    margin-top: 12px;
+    margin-bottom: 22px;
+    text-align: right;
+    color: #888;
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #111;
+  }
+
+  &__aside {
+    float: right;
+    width: 220px;
+
+    & ~ .article__body {
+      margin-right: 240px;
+    }
+  }
+}

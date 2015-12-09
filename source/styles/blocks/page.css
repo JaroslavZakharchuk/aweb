@@ -1,0 +1,15 @@
+/* Page */
+
+.page {
+  font: 14px/22px 'Trebuchet MS', Tahoma, sans-serif;
+  min-width: 960px;
+  margin: 0;
+  color: #333;
+
+  &__content {
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
